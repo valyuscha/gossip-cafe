@@ -9,6 +9,7 @@ import Gallery from "@/components/Gallery";
 import OfferSection from "@/components/OfferSection";
 import Reservation from "@/components/Reservation";
 import Footer from "@/components/Footer";
+import LinkedInWatermark from "@/components/LinkedInWatermark";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Reservation />
         </main>
         <Footer />
+        <LinkedInWatermark />
         <Toaster
           position="bottom-right"
           toastOptions={{
